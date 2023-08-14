@@ -3,10 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Respnsive Hospital Website</title>
-    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Responsive Hospital Website</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOXICONS CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <button class="btn">Click me</button>
+    <nav>
+        <div class="container">
+            <a href="h3" class="nav__logo"><h3>MEDI-CARE</h3></a>
+
+            <ul id="nav__items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#specialists">Specialists</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#appointment" class="btn">Make Appointment</a></li>
+            </ul>
+
+            <button id="open__nav-btn"><i class='bx bx-menu'></i></button>
+            <button id="close__nav-btn"><i class='bx bx-x'></i></button>
+        </div>
+    </nav>
+
+    <!---------------------END OF NAV-------------------------->
+
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <h1>Complete Care Solutions For Everyone</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quis nisi provident ipsum impedit quod exercitationem perspiciatis iste fuga eaque totam? Est dicta ab unde inventore excepturi, vitae quis iste.
+                </p>
+                <a href="#appointment" class="btn">Make Appointment</a>
+            </div>
+            <div class="header__image">
+                <img src="./assets/header.svg" alt="Header Image">
+            </div>
+        </div>
+    </header>
+    <!-----------------------END OF HEADER------------------------------>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laborum illum alias animi asperiores distinctio!
+        </p>
+
+        <div class="container">
+            <article>
+                <i class='bx bx-book-content'></i>
+                <div>
+                    <h4>Online  Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non adipisci illo asperiores doloribus illum, tenetur dignissimos quia quos quas.</small>
+                </div>
+            </article>
+            
+            <article>
+                <i class='bx bx-trophy'></i>
+                <div>
+                    <h4>Qualified Doctors</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non adipisci illo asperiores doloribus illum, tenetur dignissimos quia quos quas.</small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-support'></i>
+                <div>
+                    <h4>Private Support</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non adipisci illo asperiores doloribus illum, tenetur dignissimos quia quos quas.</small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-donate-heart'></i>
+                <div>
+                    <h4>Well Cared</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non adipisci illo asperiores doloribus illum, tenetur dignissimos quia quos quas.</small>
+                </div>
+            </article>
+
+            <article>
+                <i class='bx bx-first-aid'></i>
+                <div>
+                    <h4>Need Emergency</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non adipisci illo asperiores doloribus illum, tenetur dignissimos quia quos quas.</small>
+                </div>
+            </article>
+            
+            <article>
+                <i class='bx bxl-meta'></i>
+                <div>
+                    <h4>24 Hour Service</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non adipisci illo asperiores doloribus illum, tenetur dignissimos quia quos quas.</small>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!---------------------END OF SERVICE SECTION----------------------------->
+
+
+    <section id="specialists">
+        <h2>Our Specialists</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde ab ducimus nobis quidem repellendus adipisci perspiciatis quisquam eveniet ex?</p>
+        <div class="container">
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist1.jpg" alt="specialist one ">
+                </div>
+
+                <div class="specialist__detail">
+                    <h4>Dr. Kwadjo Nkansa</h4>
+                    <small>Surgery Specialist</small>
+                </div>
+
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=6437743392" class="specialist__whatsapp" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist2.jpg" alt="specialist two ">
+                </div>
+
+                <div class="specialist__detail">
+                    <h4>Dr. Radhika Patil</h4>
+                    <small>Cardiology Specialist</small>
+                </div>
+
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=9108145635" class="specialist__whatsapp" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist3.jpg" alt="specialist three ">
+                </div>
+
+                <div class="specialist__detail">
+                    <h4>Dr. Lisa Laughlin</h4>
+                    <small>Eye Specialist</small>
+                </div>
+
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=1039363592" class="specialist__whatsapp" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+
+            <article>
+                <div class="specialist__image">
+                    <img src="./assets/specialist4.jpg" alt="specialist four ">
+                </div>
+
+                <div class="specialist__detail">
+                    <h4>Dr. Rose Joseph</h4>
+                    <small>Orthopedic Specialist</small>
+                </div>
+
+                <div class="specialist__socials">
+                    <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=7039638128" class="specialist__whatsapp" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </article>
+
+
+        </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+
 </body>
 </html>
