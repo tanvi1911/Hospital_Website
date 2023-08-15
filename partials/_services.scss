@@ -38,7 +38,7 @@
         .container {
             
             gap: 1rem;
-            grid-template-columns: repeat(1, 3fr);
+            grid-template-columns: 1fr, 1fr;
 
             article {
                 padding: 1.2em;

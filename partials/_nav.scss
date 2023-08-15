@@ -1,4 +1,5 @@
 nav {
+    
     width: 100vw;
     height: 5rem;
     position: fixed;
@@ -7,6 +8,28 @@ nav {
     place-items: center;
     @include gradientBackground;
     box-shadow: 0 1rem 1rem rgba($black-color, 0.1);
+    
+    /* navbar styles on scroll using JS*/
+    &.window-scroll {
+        background: $white-color;
+        .container {
+            button {
+                color: rgba($black-color, 0.1);
+            }
+            a {
+                color: $black-color;
+
+                & > h3 {
+                    color: $black-color
+                }
+
+                &.btn {
+                    color: $white-color;
+                }
+            }
+
+        }
+    }
 
     .container {
         display: flex;
@@ -40,6 +63,7 @@ nav {
 
 @media screen and (max-width: 1024px) {
     nav {
+        
         .container {
             button {
                 display: inline-block;

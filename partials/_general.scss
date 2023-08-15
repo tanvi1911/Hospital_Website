@@ -46,7 +46,7 @@ section {
     @include button($white-color, $primary-color);
 }
 
-/***********************MEDIA QUERIES (MEDIUM DEVICES**********************************/
+/***********************MEDIA QUERIES (MEDIUM DEVICES)**********************************/
 @media screen and (max-width: 1024px){
     .container {
         width: $container-md;
